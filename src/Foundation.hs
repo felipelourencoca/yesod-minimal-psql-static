@@ -9,8 +9,10 @@
              GeneralizedNewtypeDeriving, ViewPatterns, EmptyDataDecls#-}
 
 
+{-# LANGUAGE DataKinds #-}
 {-# LANGUAGE DerivingStrategies #-}
 {-# LANGUAGE StandaloneDeriving #-}
+{-# LANGUAGE TypeOperators #-}
 {-# LANGUAGE UndecidableInstances #-}  
 
 module Foundation where
